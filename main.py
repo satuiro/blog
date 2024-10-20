@@ -10,6 +10,11 @@ app = FastAPI()
 app.include_router(auth.router)
 
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to BLOG API"}
+
+
 @app.post("/blogs/", response_model=schemas.Blog)
 def create_blog(
     blog: schemas.BlogCreate,
