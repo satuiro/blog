@@ -114,7 +114,7 @@ curl -X PUT https://blog-505j.onrender.com/blogs/1/like \
 
 ```bash
 git clone https://github.com/satuiro/blog
-cd blog-api
+cd blog
 ```
 
 2. Create a virtual environment
