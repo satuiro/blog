@@ -113,7 +113,7 @@ curl -X PUT https://blog-505j.onrender.com/blogs/1/like \
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/satuiro/blog
 cd blog-api
 ```
 
@@ -121,7 +121,7 @@ cd blog-api
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 3. Install dependencies
